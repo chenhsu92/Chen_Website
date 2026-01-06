@@ -21,7 +21,7 @@ const Contact = () => {
             href="mailto:chenhsu0916@gmail.com"
             sx={{ px: 5, py: 2 }}
         >
-            Say Hello
+            Email Me
         </Button>
       </Container>
     </Box>

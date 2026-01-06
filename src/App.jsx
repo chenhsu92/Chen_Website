@@ -6,6 +6,8 @@ import About from './components/sections/About';
 import Experience from './components/sections/Experience';
 import Projects from './components/sections/Projects';
 import Contact from './components/sections/Contact';
+// 1. Import the Chatbox component
+import Chatbox from './components/sections/Chatbox'; 
 import { Box } from '@mui/material';
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
         <Projects />
         <Contact />
       </main>
+
+      <Chatbox />
 
       {/* Footer */}
       <Box sx={{ 
